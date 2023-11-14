@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from blog_mock import posts
+from blog.db_mock import posts
 
 
 def index(request):
